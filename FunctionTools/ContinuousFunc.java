@@ -1,3 +1,4 @@
+package FunctionTools;
 import java.util.Objects;
 
 public class ContinuousFunc {

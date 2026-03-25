@@ -1,3 +1,4 @@
+import FunctionTools.ContinuousFunc;
 
 public class exampleContFunc {
   public static void main(String[] args) {
