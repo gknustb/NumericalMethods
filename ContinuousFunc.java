@@ -1,13 +1,10 @@
-package calcnum;
-
-interface MathFunction{
-  double calculateFunction(double x);
-}
+import java.util.Objects;
 
 public class ContinuousFunc {
   private final MathFunction function;
 
   public ContinuousFunc(MathFunction func){
+    Objects.requireNonNull(func, "Must pass a function.");
     this.function=func;
   }
 
